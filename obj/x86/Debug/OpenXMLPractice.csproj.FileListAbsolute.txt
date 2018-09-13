@@ -1,0 +1,63 @@
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Form1.resources
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+E:\Harshad's Property\Harshad Data\Word_practice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Form1.resources
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
+C:\Users\p.kulkarni\Desktop\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
+E:\Prasad\R_D\Open XML\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+E:\Prasad\R_D\Open XML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+E:\Prasad\R_D\Open XML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Form1.resources
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csproj.GenerateResource.Cache
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+E:\Educe Products\AssignMents\OpenXml\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Form1.resources
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csproj.GenerateResource.Cache
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\bin\Debug\OpenXmlPowerTools.dll
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\bin\Debug\OpenXmlPowerTools.pdb
+C:\Users\p.kulkarni.ESPL-C-3100\Desktop\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csprojResolveAssemblyReference.cache
+E:\Prasad\R_D\OpenXMLPractice\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+E:\Prasad\R_D\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+E:\Prasad\R_D\OpenXMLPractice\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csprojResolveAssemblyReference.cache
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Form1.resources
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csproj.GenerateResource.Cache
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
+F:\DownloadMix\Prasad's Article\Codeproject\Word Automation without Word Interop using C# and OpenXML\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe.config
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.exe
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.pdb
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csprojResolveAssemblyReference.cache
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Form1.resources
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csproj.GenerateResource.Cache
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
+D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
