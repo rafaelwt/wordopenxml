@@ -61,3 +61,16 @@ D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPra
 D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\obj\x86\Debug\OpenXMLPractice.csproj.GenerateResource.Cache
 D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\bin\Debug\OpenXMLPractice.exe
 D:\Sistemas\word\OpenXMLPractice_Source\OpenXMLPractice\bin\Debug\OpenXMLPractice.pdb
+E:\Sistema\csharp\wordopenxml\bin\Debug\OpenXMLPractice.exe.config
+E:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.exe
+E:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.pdb
+D:\Sistema\csharp\wordopenxml\bin\Debug\OpenXMLPractice.exe.config
+D:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.exe
+D:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.pdb
+D:\Sistema\csharp\wordopenxml\bin\Debug\OpenXMLPractice.exe
+D:\Sistema\csharp\wordopenxml\bin\Debug\OpenXMLPractice.pdb
+D:\Sistema\csharp\wordopenxml\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.csprojResolveAssemblyReference.cache
+D:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.Form1.resources
+D:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.Properties.Resources.resources
+D:\Sistema\csharp\wordopenxml\obj\x86\Debug\OpenXMLPractice.csproj.GenerateResource.Cache

@@ -27,7 +27,9 @@ namespace OpenXMLPractice
 {
     public partial class Form1 : Form
     {
-
+        public static string valueglobal = "0";  //abtracnumber del inciso ubicado en el archivo numeric xml del documento
+        public static bool bandera = true;
+        static int acu = 0;
         public Form1()
         {
             InitializeComponent();
@@ -37,7 +39,7 @@ namespace OpenXMLPractice
         {
            // createDocument();
             // SearchAndReplace("D:\\test11.docx");
-            RemovePageBreaks("D:\\test11.docx");
+            documentProtocol("D:\\test11.docx");
           //  RemoveSectionBreaks("D:\\test11.docx");
         }
 
@@ -93,7 +95,133 @@ namespace OpenXMLPractice
 
             return new Paragraph(run);
         }
-        public static void RemovePageBreaks(string filename)
+        public static string valorInciso(int indice, string tipo , string idvalue) {
+
+            string valor = " ";
+            if (idvalue != valueglobal)
+            {
+                acu = 0;
+                indice = acu;
+                bandera = true;
+            }
+
+           
+            if (tipo.Equals("lowerLetter"))
+            {
+                valor = getLowerLetter(indice);
+               // newPara.AppendChild(new Run(new Text("a) ") { Space = SpaceProcessingModeValues.Preserve }));
+            }
+            if (tipo.Equals("decimal"))
+            {
+                valor = geDecimal(indice);
+               //newPara.AppendChild(new Run(new Text("1) ") { Space = SpaceProcessingModeValues.Preserve }));
+            }
+            if (tipo.Equals("upperLetter"))
+            {
+                valor = getLowerLetter(indice).ToUpper();
+                // newPara.AppendChild(new Run(new Text("A) ") { Space = SpaceProcessingModeValues.Preserve }));
+            }
+
+            return valor;
+        }
+
+        public static string getLowerLetter (int indice){
+
+            string valor = "";
+            switch (indice)
+            {
+                case 0:
+                    valor = "a) ";
+                    break;
+                case 1:
+                    valor = "b) ";
+                    break;
+                case 2:
+                    valor = "c) ";
+                    break;
+                case 3:
+                    valor = "d) ";
+                    break;
+                case 4:
+                    valor = "e) ";
+                    break;
+                case 5:
+                    valor = "f) ";
+                    break;
+                case 6:
+                    valor = "g) ";
+                    break;
+                case 7:
+                    valor = "h) ";
+                    break;
+                case 8:
+                    valor = "i) ";
+                    break;
+                case 9:
+                    valor = "j) ";
+                    break;
+                case 10:
+                    valor = "k) ";
+                    break;
+                case 11:
+                    valor = "l) ";
+                    break;
+                case 12:
+                    valor = "m) ";
+                    break;
+                case 13:
+                    valor = "n) ";
+                    break;
+                case 14:
+                    valor = "o) ";
+                    break;
+                case 15:
+                    valor = "o) ";
+                    break;
+                case 16:
+                    valor = "q) ";
+                    break;
+                case 17:
+                    valor = "r) ";
+                    break;
+                case 18:
+                    valor = "s) ";
+                    break;
+                case 19:
+                    valor = "t) ";
+                    break;
+                case 20:
+                    valor = "u) ";
+                    break;
+                case 21:
+                    valor = "v) ";
+                    break;
+                case 22:
+                    valor = "w) ";
+                    break;
+                case 23:
+                    valor = "x) ";
+                    break;
+                case 24:
+                    valor = "y) ";
+                    break;
+                case 25:
+                    valor = "z) ";
+                    break;
+                default:
+                    Console.WriteLine("Default case");
+                    break;
+            }
+            return valor;
+        }
+        public static string geDecimal(int indice)
+        {
+
+            string valor = (indice + 1).ToString() +") ";
+            return valor;
+        }
+
+        public static void documentProtocol(string filename)
         {
       
             using (WordprocessingDocument myDoc = WordprocessingDocument.Open(filename, true))
@@ -109,20 +237,28 @@ namespace OpenXMLPractice
                 //OpenXmlElement abstractNum = numbering.ChildElements.FirstOrDefault(x => x.LocalName.Equals("abstractNum"));
                 List<OpenXmlElement> ablist = numbering.ChildElements.Where(x => x.LocalName.Equals("abstractNum")).ToList();
                 List<OpenXmlElement> item = numbering.ChildElements.Where(x => x.LocalName.Equals("num")).ToList();
+                // obtengo todos los parrafos del documento
                 List<Paragraph> paragraphs = mainPart.Document.Descendants<Paragraph>().ToList();
                 int i = 1;
 
                 Paragraph newPara = new Paragraph();
                 // newPara.AppendChild(new Run(new Text("This sentence has spacing between the gg in to")));
-                
+                bool bold = false;
                 foreach (Paragraph p in paragraphs)
                 {
-
+                    bold = false;
                     List<OpenXmlElement> elems = p.Descendants<OpenXmlElement>().Where(x => x.LocalName == "numId").ToList();
-
+                    // List<OpenXmlElement> elemsall = p.Descendants<OpenXmlElement>().ToList();
+                    List<OpenXmlElement> elemsbold = p.Descendants<OpenXmlElement>().Where(x => x.LocalName == "b").ToList();
+                    if( elemsbold.Count> 0){
+                        bold = true;
+                    }
+                    // int acu = 0;
                     foreach (var child in elems)
                     {
-                        
+
+                    
+
                         string value = "";
                         if (child.OuterXml.Contains("<w:numId"))
                          {
@@ -134,6 +270,11 @@ namespace OpenXMLPractice
                                  "http://schemas.openxmlformats.org/wordprocessingml/2006/main");
                              XmlNode runProperty = levelXml.SelectSingleNode("w:numId", namespaceManager);
                              value = runProperty.Attributes["w:val"].Value;
+                             if (bandera)
+                             {
+                                 valueglobal = value;
+                                 bandera = false;
+                             }
                              
                          }
 
@@ -166,21 +307,30 @@ namespace OpenXMLPractice
                             }
                             
                         }
-
                         //insertar segun el tipo
-                        if (tipo.Equals("lowerLetter")) {
-                            newPara.AppendChild(new Run(new Text("a) ") { Space = SpaceProcessingModeValues.Preserve }));
-                        }
-                        if (tipo.Equals("decimal"))
-                        {
-                            newPara.AppendChild(new Run(new Text("1) ") { Space = SpaceProcessingModeValues.Preserve }));
-                        }
-                        if (tipo.Equals("upperLetter"))
-                        {
-                            newPara.AppendChild(new Run(new Text("A) ") { Space = SpaceProcessingModeValues.Preserve }));
-                        }
-                        //
+                        string inciso = valorInciso(acu, tipo, value);
 
+                        if (bold)
+                        {
+                            //create a run for the bold text
+                            Run run = new Run();
+                            run.Append(new Text(inciso) { Space = SpaceProcessingModeValues.Preserve });
+                            //create runproperties and append a "Bold" to them
+                            RunProperties runProperties = new RunProperties();
+                            runProperties.Append(new Bold());
+                            //set the first runs RunProperties to the RunProperties containing the bold
+                            run.RunProperties = runProperties;
+
+                            newPara.AppendChild(run);
+                        }
+                        else {
+
+                            newPara.AppendChild(new Run(new Text(inciso) { Space = SpaceProcessingModeValues.Preserve }));
+                        }
+                      
+                        
+                        //subir acumulador
+                        acu++;
                        // newPara.AppendChild(new Run(new Text(value+ " ") { Space = SpaceProcessingModeValues.Preserve }));
                     }
                     //foreach (OpenXmlElement el in elems) {
