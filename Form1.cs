@@ -374,8 +374,24 @@ namespace OpenXMLPractice
                 // adicionar Paragraph
                 var body = myDoc.MainDocumentPart.Document.Body;
                
-                
-                body.Append(newPara);
+                // adiciona el parrafo final
+                // body.Append(newPara);
+
+                // creat nuevo documento
+
+                using (WordprocessingDocument wordDocument =
+                    WordprocessingDocument.Create("D:\\protocolo.docx", WordprocessingDocumentType.Document))
+                {
+                    // Insert other code here. 
+                    // Add a main document part. 
+                    MainDocumentPart mainPartnew  = wordDocument.AddMainDocumentPart();
+
+                    // Create the document structure and add some text.
+                    mainPartnew.Document = new Document();
+                    Body bodynew = mainPartnew.Document.AppendChild(new Body());
+                    bodynew.Append(newPara);
+                    mainPart.Document.Save();
+                }
 
                 mainPart.Document.Save();
 
