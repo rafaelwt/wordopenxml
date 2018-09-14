@@ -389,6 +389,12 @@ namespace OpenXMLPractice
                     // Create the document structure and add some text.
                     mainPartnew.Document = new Document();
                     Body bodynew = mainPartnew.Document.AppendChild(new Body());
+                    //justificacion 
+                    Justification justification = new Justification() { Val = JustificationValues.Both };
+                    ParagraphProperties paragraphProperties = new ParagraphProperties();
+                    paragraphProperties.Append(justification);
+  
+                    newPara.ParagraphProperties = paragraphProperties;
                     bodynew.Append(newPara);
                     mainPart.Document.Save();
                 }
